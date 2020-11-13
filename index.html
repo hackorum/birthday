@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Party Invite 🥳🥳🥳</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <h1>Let's Celebrate Dhruv's birthday!</h1>
+    <br>
+    <br>
+    <br>
+      <img class="one" src="image.jpeg" alt="person"></img>
+    <br>
+    <br>
+    <p>JOIN THE WHATSAPP VIDEO CALL AT 4 PM ON THE 16TH OF NOVEMBER!</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="balloons">
+      <img src="balloon.png" alt="balloons" width=30% >
+      <img src="balloon.png" alt="balloons" width="30%">
+    </div>
+    
+    <script src="confetti.js"></script>
+
+    <script>
+      const startit = () => {
+        setTimeout(function () {
+          confetti.start();
+        }, 1000);
+      };
+
+      const stopit = () => {
+        setTimeout(function () {
+          confetti.stop();
+        }, 15000);
+      };
+
+      startit();
+      stopit();
+    </script>
+    <h3>Made by Neil Sudeep Sabde</h3>
+  </body>
+</html>

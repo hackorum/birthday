@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #d9f7f7;
+}
+
+h1 {
+  margin-top: 10px;
+  text-align: center;
+  color: rgb(127, 127, 207);
+}
+
+p {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+}
+
+.one {
+  width: 80%;
+  height: 80vh;
+  margin-left: 10%;
+}
+
+.balloons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a {
+  padding-left: 43%;
+  text-decoration: none;
+  font-size: 27px;
+  color: rgb(145, 188, 143);
+}
+
+@media only screen and (max-width: 500px) {
+  a {
+    padding-left: 32%;
+  }
+
+  .one {
+    width: 80%;
+    height: 50vh;
+    margin-left: 10%;
+  }
+}
